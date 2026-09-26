@@ -1,0 +1,18 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="SpringDataJpaPracticeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <envs>
+      <env name="DB_PASSWORD" value="Jay@2927" />
+      <env name="DB_USERNAME" value="postgres" />
+      <env name="-Duser.timezone" value="UTC" />
+    </envs>
+    <module name="springDataJpaPractice" />
+    <selectedOptions>
+      <option name="spring.boot.profiles" visible="false" />
+    </selectedOptions>
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springDataJpaPractice.SpringDataJpaPracticeApplication" />
+    <option name="VM_PARAMETERS" value="-Duser.timezone=UTC" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

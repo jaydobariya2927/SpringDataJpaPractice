@@ -35,4 +35,9 @@ public class UserService {
         }
         return userDtoList;
     }
+
+    public UserDto getUserById(Long id) {
+        User user = userRepository.findById(id).orElseThrow();
+        return new UserDto(user.getId(), user.getName(),user.getEmail());
+    }
 }
